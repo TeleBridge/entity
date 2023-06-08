@@ -43,7 +43,7 @@ export function MarkdownV2(match: string, entity?: MessageEntity, escape = true)
 
 	switch (entity?.type) {
 		case "bold":
-			return `**${match}**`;
+			return `**${match}** `;
 		case "italic":
 			return `_${match}_`;
 		case "underline":
