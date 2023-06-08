@@ -13,7 +13,7 @@ Convert Telegram entities to HTML or Markdown.
 > This module is really for the rare cases where you want to convert Telegram-formatted text for consumption outside of Telegram.
 
 ```shell
-npm install @telegraf/entity
+npm install https://github.com/TeleBridge/entity.git
 ```
 
 ## Simple usage

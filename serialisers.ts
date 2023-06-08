@@ -43,13 +43,13 @@ export function MarkdownV2(match: string, entity?: MessageEntity, escape = true)
 
 	switch (entity?.type) {
 		case "bold":
-			return `*${match}*`;
+			return `**${match}**`;
 		case "italic":
 			return `_${match}_`;
 		case "underline":
 			return `__${match}__`;
 		case "strikethrough":
-			return `~${match}~`;
+			return `~~${match}~~`;
 		case "code":
 			return `\`${match}\``;
 		case "pre":
@@ -60,7 +60,7 @@ export function MarkdownV2(match: string, entity?: MessageEntity, escape = true)
 		case "url":
 			return match;
 		case "text_link":
-			return `[${match}](${entity.url})`;
+			return `${match} (${entity.url})`;
 		case "text_mention":
 			return `[${match}](tg://user?id=${entity.user.id})`;
 		case "mention":
