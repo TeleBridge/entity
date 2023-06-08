@@ -1,7 +1,7 @@
 {
-	"name": "@telegraf/entity",
+	"name": "@telebridge/entity",
 	"version": "0.0.0-dev",
-	"description": "Convert Telegram entities to HTML or Markdown",
+	"description": "Fork of telegraf/entity to convert entities to Discord's markdown",
 	"main": ".npm/script/mod.js",
 	"types": ".npm/types/mod.d.ts",
 	"keywords": [
