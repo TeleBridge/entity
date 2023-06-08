@@ -23,6 +23,6 @@
 		"prepare": "deno run -A ./build_npm.ts"
 	},
 	"devDependencies": {
-		"deno-bin": "^1.31.3"
+		"deno-bin": "TeleBridge/deno-bin"
 	}
 }
