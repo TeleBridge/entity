@@ -1,6 +1,6 @@
 {
 	"name": "@telebridge/entity",
-	"version": "0.0.0-dev",
+	"version": "0.0.1-dev",
 	"description": "Fork of telegraf/entity to convert entities to Discord's markdown",
 	"main": ".npm/script/mod.js",
 	"types": ".npm/types/mod.d.ts",
