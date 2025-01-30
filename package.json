@@ -22,7 +22,7 @@
 	"scripts": {
 		"prepare": "deno run -A ./build_npm.ts"
 	},
-	"devDependencies": {
-		"deno-bin": "TeleBridge/deno-bin"
+	"dependencies": {
+		"deno": "^2.1.8"
 	}
 }
